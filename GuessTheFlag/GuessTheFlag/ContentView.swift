@@ -7,6 +7,17 @@
 
 import SwiftUI
 
+struct FlagImage: View  {
+    let name: String
+    
+    var body: some View {
+        Image(name )
+            .renderingMode(.original)
+            .clipShape(RoundedRectangle(cornerRadius: 15))
+            .shadow(radius: 5)
+    }
+}
+
 struct ContentView: View {
     @State private var showingWrong = false
     @State private var scoreTitle = ""
@@ -39,10 +50,7 @@ struct ContentView: View {
                     Button {
                         flagTapped(number)
                     } label: {
-                        Image(countries[number])
-                            .renderingMode(.original)
-                            .clipShape(RoundedRectangle(cornerRadius: 15))
-                            .shadow(radius: 5)
+                        FlagImage(name: countries[number])
                     }
                 }
                 
@@ -65,7 +73,7 @@ struct ContentView: View {
             score += 1
             askQuestion()
         } else {
-            scoreTitle = "Wrong, that's the flag of \(countries[number]). Your score is \(score)"
+            scoreTitle = "Wrong, that's the flag of \(countries[number]). Your final score was \(score)"
             showingWrong = true
             score = 0
         }
