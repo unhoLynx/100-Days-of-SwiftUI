@@ -7,24 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D538938F2913E39100F1EFB5 /* GuessTheFlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D538938E2913E39100F1EFB5 /* GuessTheFlagApp.swift */; };
-		D53893912913E39100F1EFB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53893902913E39100F1EFB5 /* ContentView.swift */; };
-		D53893932913E39500F1EFB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D53893922913E39500F1EFB5 /* Assets.xcassets */; };
-		D53893962913E39500F1EFB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D53893952913E39500F1EFB5 /* Preview Assets.xcassets */; };
-		D5E2A97C2939E97100D07A62 /* FlagImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E2A97B2939E97100D07A62 /* FlagImage.swift */; };
+		D5E2A98A293A0E9600D07A62 /* RockPaperScissorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E2A989293A0E9600D07A62 /* RockPaperScissorsApp.swift */; };
+		D5E2A98C293A0E9600D07A62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E2A98B293A0E9600D07A62 /* ContentView.swift */; };
+		D5E2A98E293A0EA000D07A62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E2A98D293A0EA000D07A62 /* Assets.xcassets */; };
+		D5E2A991293A0EA000D07A62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E2A990293A0EA000D07A62 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D538938B2913E39100F1EFB5 /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D538938E2913E39100F1EFB5 /* GuessTheFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagApp.swift; sourceTree = "<group>"; };
-		D53893902913E39100F1EFB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D53893922913E39500F1EFB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D53893952913E39500F1EFB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D5E2A97B2939E97100D07A62 /* FlagImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagImage.swift; sourceTree = "<group>"; };
+		D5E2A986293A0E9600D07A62 /* RockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E2A989293A0E9600D07A62 /* RockPaperScissorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsApp.swift; sourceTree = "<group>"; };
+		D5E2A98B293A0E9600D07A62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D5E2A98D293A0EA000D07A62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5E2A990293A0EA000D07A62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D53893882913E39100F1EFB5 /* Frameworks */ = {
+		D5E2A983293A0E9600D07A62 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,38 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D53893822913E39100F1EFB5 = {
+		D5E2A97D293A0E9500D07A62 = {
 			isa = PBXGroup;
 			children = (
-				D538938D2913E39100F1EFB5 /* GuessTheFlag */,
-				D538938C2913E39100F1EFB5 /* Products */,
+				D5E2A988293A0E9600D07A62 /* RockPaperScissors */,
+				D5E2A987293A0E9600D07A62 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D538938C2913E39100F1EFB5 /* Products */ = {
+		D5E2A987293A0E9600D07A62 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D538938B2913E39100F1EFB5 /* GuessTheFlag.app */,
+				D5E2A986293A0E9600D07A62 /* RockPaperScissors.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D538938D2913E39100F1EFB5 /* GuessTheFlag */ = {
+		D5E2A988293A0E9600D07A62 /* RockPaperScissors */ = {
 			isa = PBXGroup;
 			children = (
-				D538938E2913E39100F1EFB5 /* GuessTheFlagApp.swift */,
-				D53893902913E39100F1EFB5 /* ContentView.swift */,
-				D5E2A97B2939E97100D07A62 /* FlagImage.swift */,
-				D53893922913E39500F1EFB5 /* Assets.xcassets */,
-				D53893942913E39500F1EFB5 /* Preview Content */,
+				D5E2A989293A0E9600D07A62 /* RockPaperScissorsApp.swift */,
+				D5E2A98B293A0E9600D07A62 /* ContentView.swift */,
+				D5E2A98D293A0EA000D07A62 /* Assets.xcassets */,
+				D5E2A98F293A0EA000D07A62 /* Preview Content */,
 			);
-			path = GuessTheFlag;
+			path = RockPaperScissors;
 			sourceTree = "<group>";
 		};
-		D53893942913E39500F1EFB5 /* Preview Content */ = {
+		D5E2A98F293A0EA000D07A62 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				D53893952913E39500F1EFB5 /* Preview Assets.xcassets */,
+				D5E2A990293A0EA000D07A62 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -73,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D538938A2913E39100F1EFB5 /* GuessTheFlag */ = {
+		D5E2A985293A0E9600D07A62 /* RockPaperScissors */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D53893992913E39500F1EFB5 /* Build configuration list for PBXNativeTarget "GuessTheFlag" */;
+			buildConfigurationList = D5E2A994293A0EA000D07A62 /* Build configuration list for PBXNativeTarget "RockPaperScissors" */;
 			buildPhases = (
-				D53893872913E39100F1EFB5 /* Sources */,
-				D53893882913E39100F1EFB5 /* Frameworks */,
-				D53893892913E39100F1EFB5 /* Resources */,
+				D5E2A982293A0E9600D07A62 /* Sources */,
+				D5E2A983293A0E9600D07A62 /* Frameworks */,
+				D5E2A984293A0E9600D07A62 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GuessTheFlag;
-			productName = GuessTheFlag;
-			productReference = D538938B2913E39100F1EFB5 /* GuessTheFlag.app */;
+			name = RockPaperScissors;
+			productName = RockPaperScissors;
+			productReference = D5E2A986293A0E9600D07A62 /* RockPaperScissors.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D53893832913E39100F1EFB5 /* Project object */ = {
+		D5E2A97E293A0E9500D07A62 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					D538938A2913E39100F1EFB5 = {
+					D5E2A985293A0E9600D07A62 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = D53893862913E39100F1EFB5 /* Build configuration list for PBXProject "GuessTheFlag" */;
+			buildConfigurationList = D5E2A981293A0E9500D07A62 /* Build configuration list for PBXProject "RockPaperScissors" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,43 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = D53893822913E39100F1EFB5;
-			productRefGroup = D538938C2913E39100F1EFB5 /* Products */;
+			mainGroup = D5E2A97D293A0E9500D07A62;
+			productRefGroup = D5E2A987293A0E9600D07A62 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D538938A2913E39100F1EFB5 /* GuessTheFlag */,
+				D5E2A985293A0E9600D07A62 /* RockPaperScissors */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D53893892913E39100F1EFB5 /* Resources */ = {
+		D5E2A984293A0E9600D07A62 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D53893962913E39500F1EFB5 /* Preview Assets.xcassets in Resources */,
-				D53893932913E39500F1EFB5 /* Assets.xcassets in Resources */,
+				D5E2A991293A0EA000D07A62 /* Preview Assets.xcassets in Resources */,
+				D5E2A98E293A0EA000D07A62 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D53893872913E39100F1EFB5 /* Sources */ = {
+		D5E2A982293A0E9600D07A62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D53893912913E39100F1EFB5 /* ContentView.swift in Sources */,
-				D5E2A97C2939E97100D07A62 /* FlagImage.swift in Sources */,
-				D538938F2913E39100F1EFB5 /* GuessTheFlagApp.swift in Sources */,
+				D5E2A98C293A0E9600D07A62 /* ContentView.swift in Sources */,
+				D5E2A98A293A0E9600D07A62 /* RockPaperScissorsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D53893972913E39500F1EFB5 /* Debug */ = {
+		D5E2A992293A0EA000D07A62 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -200,7 +196,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -210,7 +206,7 @@
 			};
 			name = Debug;
 		};
-		D53893982913E39500F1EFB5 /* Release */ = {
+		D5E2A993293A0EA000D07A62 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -255,7 +251,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -265,14 +261,14 @@
 			};
 			name = Release;
 		};
-		D538939A2913E39500F1EFB5 /* Debug */ = {
+		D5E2A995293A0EA000D07A62 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GuessTheFlag/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RockPaperScissors/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -285,7 +281,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = unholy.GuessTheFlag;
+				PRODUCT_BUNDLE_IDENTIFIER = unholy.RockPaperScissors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -293,14 +289,14 @@
 			};
 			name = Debug;
 		};
-		D538939B2913E39500F1EFB5 /* Release */ = {
+		D5E2A996293A0EA000D07A62 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GuessTheFlag/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RockPaperScissors/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -313,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = unholy.GuessTheFlag;
+				PRODUCT_BUNDLE_IDENTIFIER = unholy.RockPaperScissors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -324,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D53893862913E39100F1EFB5 /* Build configuration list for PBXProject "GuessTheFlag" */ = {
+		D5E2A981293A0E9500D07A62 /* Build configuration list for PBXProject "RockPaperScissors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D53893972913E39500F1EFB5 /* Debug */,
-				D53893982913E39500F1EFB5 /* Release */,
+				D5E2A992293A0EA000D07A62 /* Debug */,
+				D5E2A993293A0EA000D07A62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D53893992913E39500F1EFB5 /* Build configuration list for PBXNativeTarget "GuessTheFlag" */ = {
+		D5E2A994293A0EA000D07A62 /* Build configuration list for PBXNativeTarget "RockPaperScissors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D538939A2913E39500F1EFB5 /* Debug */,
-				D538939B2913E39500F1EFB5 /* Release */,
+				D5E2A995293A0EA000D07A62 /* Debug */,
+				D5E2A996293A0EA000D07A62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D53893832913E39100F1EFB5 /* Project object */;
+	rootObject = D5E2A97E293A0E9500D07A62 /* Project object */;
 }

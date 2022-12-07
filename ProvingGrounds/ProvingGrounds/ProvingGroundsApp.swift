@@ -11,7 +11,23 @@ import SwiftUI
 struct ProvingGroundsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                ContentView()
+                    .tabItem {
+                        Image(systemName: "airplane.circle.fill")
+                        Text("Discover")
+                    }
+                ContentView()
+                    .tabItem {
+                        Image(systemName: "airplane.circle.fill")
+                        Text("Discover2")
+                    }
+                ContentView()
+                    .tabItem {
+                        Image(systemName: "airplane.circle.fill")
+                        Text("Discover3")
+                    }
+            }
         }
     }
 }

@@ -7,17 +7,6 @@
 
 import SwiftUI
 
-struct FlagImage: View  {
-    let name: String
-    
-    var body: some View {
-        Image(name )
-            .renderingMode(.original)
-            .clipShape(RoundedRectangle(cornerRadius: 15))
-            .shadow(radius: 5)
-    }
-}
-
 struct ContentView: View {
     @State private var showingWrong = false
     @State private var scoreTitle = ""
