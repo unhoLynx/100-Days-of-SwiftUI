@@ -59,7 +59,7 @@ struct ContentView: View {
         guard answer.count > 0 else { return }
         
         guard isLongEnough(word: answer) else {
-            wordError(title: "Word is two short", message: "It has to be at least 3 letters long")
+            wordError(title: "Word is too short", message: "It has to be at least 3 letters long")
             return
         }
         

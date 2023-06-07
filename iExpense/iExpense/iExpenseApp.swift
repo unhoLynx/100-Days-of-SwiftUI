@@ -1,14 +1,14 @@
 //
-//  AnimationsApp.swift
-//  Animations
+//  iExpenseApp.swift
+//  iExpense
 //
-//  Created by Dmitriy Rysev on 11.12.2022.
+//  Created by Dmitriy Rysev on 12.12.2022.
 //
 
 import SwiftUI
 
 @main
-struct AnimationsApp: App {
+struct iExpenseApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

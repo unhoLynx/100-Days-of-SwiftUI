@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  Animations
+//  iExpense
 //
-//  Created by Dmitriy Rysev on 11.12.2022.
+//  Created by Dmitriy Rysev on 12.12.2022.
 //
 
 import SwiftUI
